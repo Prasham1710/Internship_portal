@@ -15,9 +15,9 @@ const Start = () => {
       
                       <p className='text-6xl pt-[14px] pl-2 '>Applicant </p>
                       <p className='flex flex-col pr-[190px] pt-4'>
-                      <button className='pt-2 pb-2 bg-orange-300 rounded-2xl'><a href ='/login'>
+                      <button className='pt-2 pb-2 bg-blue-300 rounded-2xl'><a href ='/login'>
                           Login</a></button>
-                      <p className='pt-4 pl-4'>Don't have account? <button className='hover:underline pl-4'>Sign Up</button></p>
+                      <p className='pt-4 pl-4'>Don't have account? <button className='hover:underline pl-4'><a href='/signup'>Sign Up</a></button></p>
                       
                       
                       </p>
@@ -26,7 +26,7 @@ const Start = () => {
                   </div>
               {/*Card*/}
               
-              <div className='relative w-[900px] h-[600px] bg-orange-300 '>
+              <div className='relative w-[900px] h-[600px] bg-blue-300 '>
                   {/*overlay*/}
                   
                       

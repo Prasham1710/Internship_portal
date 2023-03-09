@@ -8,7 +8,7 @@ const Signup = () => {
 
      <div className='flex justify-center items-center h-full'>
      <form className='max-w-[500px]  w-full mx-auto border rounded-xl bg-white p-4'><h2 className='text-4xl font-bold text-center py-5 pl-4 text-violet-600'>Sign Up</h2>
-     <div className=' relative font-bold'><h2 >Create your own signal account</h2></div>
+     <div className=' relative font-bold pr-1'><h2 >Create your own account</h2></div>
      
      <div className='  p-4  '>
             <input className=' w-80 border relative rounded  p-1 bg-gray-100' type="text" placeholder=' Name' />
@@ -18,7 +18,7 @@ const Signup = () => {
             <input className=' w-80 border relative  rounded p-1 bg-gray-100' type="email" placeholder='username@gmail.com' /><div><button><p className=' text-blue-600 underline decoration-solid relative pt-2' >use my current mail id </p></button></div>
             </div>
             <div className=' flex gap-8'>
-            <input className=' w-80 border relative  rounded p-1 bg-gray-100' type="text" placeholder='Password'/>
+            <input className=' w-80 border relative  rounded p-1  bg-gray-100' type="text" placeholder='Password'/>
              <input className=' w-80 border relative  rounded p-1 bg-gray-100' type="text" placeholder='Confirm password '/></div> 
                
             <div className='relative flex flex-col '><div><button  className=' w-15 text-blue-600 underline decoration-solid py-2' >sign in instead </button></div>

@@ -7,7 +7,7 @@ import Signup from './component/Signupa';
 const App = () => {
   return (
     <div>
-      
+      <Navbar />
       <BrowserRouter><Routes>
       <Route path='/' element={<Start/>} />
       <Route path='/login' element={<Login/>}/>

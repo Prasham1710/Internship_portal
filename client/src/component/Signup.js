@@ -1,5 +1,5 @@
 import React from 'react'
-
+import EmailInput from "../lib/EmailInput";
 const Signup = () => {
   return (
     <div className='relative w-full h-screen  bg-blue-300 '><div className='hidden sm:block'></div>
@@ -30,10 +30,7 @@ const Signup = () => {
             <div>
                <input className=' w-80 border relative  rounded-xl p-1 bg-gray-100' type="text" placeholder='Skills'/>
             </div>
-            <button className = 'relative border w-[30%] rounded-xl my-9 py-1  bg-blue-700 hover:bg-indigo-500 text-white'> Next </button></div> <FileBase
-              type="file"
-              multiple={false}
-              onDone={({base64}) => setPostData({ ...postData, selectedFile: base64 })} /> 
+            <button className = 'relative border w-[30%] rounded-xl my-9 py-1  bg-blue-700 hover:bg-indigo-500 text-white'> Next </button></div> 
             
             </form>  </div>
     </div> 

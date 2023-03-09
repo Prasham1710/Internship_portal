@@ -18,7 +18,7 @@ const Login = () => {
         <Grid item>
              <div className=' flex flex-col  p-4'> 
                     <label>Password</label>
-                  <input className=' w-80 border relative  p-1 bg-gray-100' type="password" />
+                  <input className=' w-80 border relative  p-1 bg-gray-100 rounded-xl' type="password" />
                   </div>
         </Grid>
         <Grid item>
@@ -26,6 +26,7 @@ const Login = () => {
             variant="contained"
             color="primary"
             onClick={() => {}}
+            className='hover:bg-orange-300'
           >
             Login
           </Button>

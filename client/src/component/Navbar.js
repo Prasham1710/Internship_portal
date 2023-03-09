@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className='flex gap-4 '>
             <button className='hover:underline'>Contact Us</button>
             <p>|</p>
-            <button className='hover:underline'>Login</button>
+            <button className='hover:underline'><a href='/login'>Login</a></button>
         </div>
     </div>
   )

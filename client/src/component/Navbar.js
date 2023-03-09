@@ -7,10 +7,8 @@ const Navbar = () => {
     <AppBar>
       <Toolbar>
         <Typography>
-          <Button>Home</Button>
-          <Button>Application</Button>
-          <Button>Profile</Button>
-          <Button>Logout</Button>
+          <Button color='inherit'>Login</Button>
+          <Button color='inherit'>Signup</Button>
         </Typography>
       </Toolbar>
     </AppBar>
@@ -18,4 +16,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

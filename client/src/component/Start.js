@@ -4,13 +4,16 @@ const Start = () => {
   return (
       
       
-          <div className=' h-[656px] '>
-              <div className='text-4xl  h-14 pt-2   pl-2 bg-gradient-to-r from-white to-orange-300'>Internship Portal</div>
+          <div className=' h-full '>
+              
           <div className='grid md:grid-cols-2 '>
+              
               {/*Card*/}
               <div className='relative w-[700px] h-[552px] bg-white'>
+              <p className='pl-2 pt-2  text-5xl'>Internship Portal</p>
                   {/*overlay*/}
                    <div className='absolute w-full h-full pl-[250px] pt-[100px]'>
+                   
                   <img className='w-[200px] pl-[70px] h-[200px] pt-4 relative' src='https://thumbs.dreamstime.com/b/student-icon-vector-graduation-mortar-board-school-college-university-glyph-pictogram-male-person-profile-avatar-108392101.jpg'/>
       
                       <p className='text-6xl pt-[14px] pl-2 '>Applicant </p>
@@ -26,12 +29,12 @@ const Start = () => {
                   </div>
               {/*Card*/}
               
-              <div className='relative w-[900px] h-[600px] bg-blue-300 '>
+              <div className='relative w-[900px] h-screen bg-blue-300 '>
                   {/*overlay*/}
                   
                       
                   
-                  <div className='absolute w-full h-full pl-[250px] pt-[100px]'>
+                  <div className='absolute w-full h-full pl-[250px] pt-[160px]'>
                   <img className='w-[200px] pl-[70px] h-[200px] pt-4 relative' src='https://thumbs.dreamstime.com/b/icon-agency-company-agency-178958770.jpg'/>
       
                       <p className=' text-6xl pt-[14px] pl-8 '>Recruiter </p>

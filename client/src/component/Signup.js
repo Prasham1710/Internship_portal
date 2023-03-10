@@ -11,7 +11,7 @@ const Signup = () => {
      <div className=' relative font-bold pr-1'><h2 >Create your own account</h2></div>
      
      <div className='  p-4  '>
-            <input className=' w-80 border relative rounded  p-1 bg-gray-100' type="text" placeholder=' Name' />
+            <input className=' w-80 border relative rounded  pt-1 pb-1 pr-1 pl-1 bg-gray-100' type="text" placeholder=' Name' />
             </div> 
              
            

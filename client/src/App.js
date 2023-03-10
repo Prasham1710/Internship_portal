@@ -3,7 +3,7 @@ import Start from './component/Start';
 import Navbar from "./component/Navbar";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './component/Login';
-import Signup from './component/Signupa';
+import Signup from './component/Signup';
 import Home from './component/Homepage';
 import Applications from './component/Applications';
 import Resume from './component/Resume';
@@ -21,7 +21,6 @@ const App = () => {
       <Route path='/create' element={<Signup/>}/>
       </Routes>
       </BrowserRouter>
-      < Logout/>
       
     </div>
   )

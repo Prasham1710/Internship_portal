@@ -40,7 +40,7 @@ const Start = () => {
                       <p className=' text-6xl pt-[14px] pl-8 '>Recruiter </p>
                       <p className='flex flex-col pr-[380px] pt-4'>
                       <button className='pt-2 pb-2 bg-white rounded-2xl'><a href ='/login'>Login</a></button>
-                      <p className='pt-4 pl-4'>Don't have account? <button className='hover:underline pl-4'>Sign Up</button></p>
+                      <p className='pt-4 pl-4'>Don't have account? <button className='hover:underline pl-4'><a href='/signup'>Sign Up</a></button></p>
                       </p>
                   </div>
                   

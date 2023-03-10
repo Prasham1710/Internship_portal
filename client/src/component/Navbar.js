@@ -10,8 +10,8 @@ const Navbar = () => {
         <button className='pl-4 hover:underline'><a href='/application'>Application</a></button>
         <button className='pl-4 hover:underline'><a href='/resume'>Resume</a></button>
         <button className='pl-4 hover:underline'><a LOR ='/lor'></a></button>
-        <button className='pl-4 pt-2 pr-[10px] hover:underline'><CgProfile size={30}/></button>
-        <button className='pl-2  hover:underline bg-white'><GrLogout /></button>
+        <button className='pl-4 pt-2 pr-[10px] hover:underline'><span title='Profile'><CgProfile size={30}/></span></button>
+        <button className='pl-2  hover:underline bg-white'><span title='LogOut'><GrLogout /></span></button>
       </div>
       
         

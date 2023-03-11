@@ -14,9 +14,7 @@ const Signup = () => {
             <input className=' w-80 border relative rounded  pt-1 pb-1 pr-1 pl-1 bg-gray-100' type="text" placeholder=' Name' />
             </div> 
              
-            <div className=' flex flex-col p-4  '>
-            <input className=' w-80 border relative  rounded p-1 bg-gray-100' type="email" placeholder='username@gmail.com' /><div><button><p className=' text-blue-600 underline decoration-solid relative pt-2' >use my current mail id </p></button></div>
-            </div>
+           
             <div className=' flex gap-8'>
             <input className=' w-80 border relative  rounded p-1  bg-gray-100' type="text" placeholder='Password'/>
              <input className=' w-80 border relative  rounded p-1 bg-gray-100' type="text" placeholder='Confirm password '/></div> 
@@ -27,9 +25,7 @@ const Signup = () => {
                 <input className=' w-20 border relative  rounded p-1 bg-gray-100' type="number" placeholder='Start Year'/>
                  <input className=' w-20 border relative  rounded p-1 bg-gray-100' type="number" placeholder='End Year'/>
             </div>
-            <div>
-               <input className=' w-80 border relative  rounded-xl p-1 bg-gray-100' type="text" placeholder='Skills'/>
-            </div>
+            
             <button className = 'relative border w-[30%] rounded-xl my-9 py-1  bg-blue-700 hover:bg-indigo-500 text-white'> Next </button></div> 
             
             </form>  </div>

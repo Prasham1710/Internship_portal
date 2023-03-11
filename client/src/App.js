@@ -3,10 +3,11 @@ import Start from './component/Start';
 import Navbar from "./component/Navbar";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './component/Login';
-import Signup from './component/Signupa';
+import Signup from './component/Signup';
 import Home from './component/Homepage';
 import Applications from './component/Applications';
 import Resume from './component/Resume';
+import Logout from './component/Logout';
 const App = () => {
   return (
     <div>
@@ -20,7 +21,7 @@ const App = () => {
       <Route path='/application' element={<Applications/>}/>
       </Routes>
       </BrowserRouter>
-      < Logout/>
+      <Logout/>
       
     </div>
   )
